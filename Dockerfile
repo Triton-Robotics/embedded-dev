@@ -33,4 +33,4 @@ RUN printf "printf \"Entered embedded container: Use <mbed-tools -h> to see avai
 # print device connected message
 RUN printf "mbed-tools detect\n" >> ~/.bashrc
 
-WORKDIR /root/workspaces
+WORKDIR /root/projects
